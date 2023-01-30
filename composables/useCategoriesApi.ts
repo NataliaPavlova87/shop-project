@@ -1,5 +1,5 @@
-export const useProductsApi = async () => {
-    const {data, pending} = await useFetch('https://fakestoreapi.com/products');
+export const useCategoriesApi = async () => {
+    const { data } = await useFetch('https://fakestoreapi.com/products/categories');
 
     if (!data.value) {
         throw createError({ statusCode: 404, statusMessage: 'Page Not Found' });
@@ -7,6 +7,5 @@ export const useProductsApi = async () => {
 
     return {
         data,
-        pending,
     }
 }
