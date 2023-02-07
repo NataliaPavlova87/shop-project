@@ -21,7 +21,9 @@ export default defineNuxtConfig({
         },
     },
     runtimeConfig: {
-        AUTH_KEY: process.env.AUTH_KEY,
+        app: {
+            authKey: process.env.NUXT_AUTH_KEY,
+        },
     },
     css: ['vuetify/lib/styles/main.sass', '@mdi/font/css/materialdesignicons.min.css',],
     build: {

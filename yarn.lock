@@ -821,6 +821,11 @@
     protobufjs "^7.0.0"
     yargs "^16.2.0"
 
+"@headlessui/vue@^1.7.9":
+  version "1.7.9"
+  resolved "https://registry.npmjs.org/@headlessui/vue/-/vue-1.7.9.tgz"
+  integrity sha512-vgLBKszj+m2ozaPOnjWMGnspoLJcU/06vygdEAyAS4nDjp72yA7AYbOIEgdaspUhaMs585ApyiSm3jPTuIxAzg==
+
 "@humanwhocodes/config-array@^0.11.8":
   version "0.11.8"
   resolved "https://registry.npmjs.org/@humanwhocodes/config-array/-/config-array-0.11.8.tgz"
@@ -910,7 +915,7 @@
 
 "@mdi/font@^7.1.96":
   version "7.1.96"
-  resolved "https://registry.yarnpkg.com/@mdi/font/-/font-7.1.96.tgz#211ca4acfa31964278e5085de595e8c73967d400"
+  resolved "https://registry.npmjs.org/@mdi/font/-/font-7.1.96.tgz"
   integrity sha512-Imag6npmfkBDi2Ze2jiZVAPTDIKLxhz2Sx82xJ2zctyAU5LYJejLI5ChnDwiD9bMkQfVuzEsI98Q8toHyC+HCg==
 
 "@netlify/functions@^1.3.0":
@@ -2367,7 +2372,7 @@ dot-prop@^7.2.0:
 
 dotenv@^16.0.3:
   version "16.0.3"
-  resolved "https://registry.yarnpkg.com/dotenv/-/dotenv-16.0.3.tgz#115aec42bac5053db3c456db30cc243a5a836a07"
+  resolved "https://registry.npmjs.org/dotenv/-/dotenv-16.0.3.tgz"
   integrity sha512-7GO6HghkA5fYG9TYnNxi14/7K9f5occMlp3zXAuSxn7CKCxt9xbNWG7yF8hTCSUchlfWSe3uLmlPfigevRItzQ==
 
 duplexer@^0.1.2:
@@ -5262,7 +5267,7 @@ sass-loader@10.1.1:
 
 sass@^1.57.1:
   version "1.57.1"
-  resolved "https://registry.yarnpkg.com/sass/-/sass-1.57.1.tgz#dfafd46eb3ab94817145e8825208ecf7281119b5"
+  resolved "https://registry.npmjs.org/sass/-/sass-1.57.1.tgz"
   integrity sha512-O2+LwLS79op7GI0xZ8fqzF7X2m/m8WFfI02dHOdsK5R2ECeS5F62zrwg/relM1rjSLy7Vd/DiMNIvPrQGsA0jw==
   dependencies:
     chokidar ">=3.0.0 <4.0.0"
@@ -5991,9 +5996,9 @@ vue@^3.2.45:
     "@vue/shared" "3.2.45"
 
 vuetify@^3.1.2:
-  version "3.1.2"
-  resolved "https://registry.yarnpkg.com/vuetify/-/vuetify-3.1.2.tgz#93a632c6e943200cd6e4b63440f34e7c24eb88f0"
-  integrity sha512-vzxfVc1KlEmZ6tHjmrKCt25rKL6YkakbvQAZ0f/s03kHd0pjXKX4pcWuYgA5mZz4yrfZh/cRHvgGt+7A9CXOVg==
+  version "3.1.3"
+  resolved "https://registry.npmjs.org/vuetify/-/vuetify-3.1.3.tgz"
+  integrity sha512-QE/yXvHKDnlK9sjjMoZy9cAovNabpI97xg9RD+mAEDgSUaZNCX/jy7Qn0bP1DjJNeAsR2oAlcO0C2WhrsYe9kw==
 
 wcwidth@^1.0.1:
   version "1.0.1"

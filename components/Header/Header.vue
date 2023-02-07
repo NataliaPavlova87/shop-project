@@ -20,12 +20,8 @@
                     </NuxtLink>
                 </div>
                 <div class="header-info__auth">
-                    <button class="header-info__enter header-info-enter">
-                        <span class="header-info-enter__text">Вход</span>
-                    </button>
-                    <button class="header-info__registration">
-                        Регистрация
-                    </button>
+                    <HeaderLogin />
+                    <HeaderRegistration />
                 </div>
             </div>
         </div>

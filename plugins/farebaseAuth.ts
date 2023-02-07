@@ -1,11 +1,14 @@
 import { initializeApp } from "firebase/app";
+import {initUser} from "~/composables/useFirebase";
 
-export default defineNuxtPlugin((nuxtApp) => {
-    // const { AUTH_KEY } = useRuntimeConfig();
+export default defineNuxtPlugin(() => {
+    const config = useRuntimeConfig();
 
     const firebaseConfig = {
-        apiKey: 'AIzaSyBa-FA533l40LocOQf2Ob4ntXbn12Ix_FI',
+        apiKey: config.app.authKey,
     };
 
-    initializeApp(firebaseConfig);
+    const app = initializeApp(firebaseConfig);
+
+    initUser();
 })
