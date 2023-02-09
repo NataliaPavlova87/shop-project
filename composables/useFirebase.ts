@@ -1,4 +1,4 @@
-import { getAuth, createUserWithEmailAndPassword, signInWithEmailAndPassword, onAuthStateChanged } from "firebase/auth";
+import { getAuth, createUserWithEmailAndPassword, signInWithEmailAndPassword, onAuthStateChanged } from 'firebase/auth';
 import {ERROR_AUTH_MESSAGE} from '@/constants/errorAuthMessage';
 import {Ref} from 'vue';
 import {User} from '@/interfaces/user';

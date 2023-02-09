@@ -1,6 +1,6 @@
 <template>
     <div>
-<!--        <v-row>
+        <v-row>
             <v-btn
                 color="primary"
                 dark
@@ -57,7 +57,7 @@
                     </v-card-actions>
                 </v-card>
             </v-dialog>
-        </v-row>-->
+        </v-row>
     </div>
 </template>
 
